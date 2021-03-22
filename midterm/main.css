@@ -1,0 +1,154 @@
+*{margin: 0;
+padding:0;
+background color: #fff;}
+
+ .sidebar {
+                     background-color: rgba(1,87,203,1);
+height: 726px;
+                     width:200px;
+                     position:absolute;
+                     z-index: 1;
+                     top: 180px;
+                     left:0px;
+                     overflow-x:inherit;
+                     padding-top:0px;
+                    }    
+       
+.sidebar a { 
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+    font-size:20px;
+    color: #fff;
+        display: block;}
+ 
+/* style links on mouse-over*/
+
+.sidebar a:hover
+   {color: #000;
+}
+dl{
+    align-content: center;
+    color:#fff;
+}
+
+
+header {
+	top: -800px;
+	left: 10px;
+	width: 1500px;
+	height: 180px;
+	background:rgba(220,59,14,1);
+    font-size: 24px;
+    background-position: center;}
+
+header .search-container{
+    float:right;
+}
+.header input [type=text]{
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size:18px;
+}
+.header .search-container button
+{
+    float:right;
+    padding;6px 10px;
+    margin-top: 8px;
+    margin right:16px;
+    background: #ddd;
+    font-size:17px;
+    border:none;
+    cursor:pointer;
+}
+.header .search-container button:hover {
+    background: #ccc;
+}
+
+        
+ul{ 
+    float:right;
+    list-style-type:none;
+    margin-top:150px;
+margin-right: 150px;}
+
+ul li { display: inline-block;
+    
+}
+
+ul li a { text-decoration: none;
+color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+background-color:#fff;
+color:#000;}
+
+ul li.active a {
+    background:rgba(220,59,14,1);
+        color: #000;
+        
+}
+
+.logo img {
+    float:left;
+    width:290px;
+    height: auto
+}
+
+
+
+.main{ {
+  margin-left: 200px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+    
+}
+.h1{
+    font-family="Tomorrow";
+    align-content: "center";
+    color: #fff;
+}
+            
+.h2{
+    color:rgba(220,59,14,1);
+    font-size: 55px;
+}
+        .body{ align-content: center;}
+           
+
+.p {  align-content: center
+            ;
+    margin-right: 800px;
+           font-size: 18px;}   
+            
+            
+            
+.img src=images/shineedontcallme.jpg {image-resolution:from-image;
+                margin-right:1000px;
+    margin-left:-800px;
+            border-color:black;
+align-content:center}
+
+.p2 {
+    align-content:center;
+}
+.p3{align-content: center;}
+                              
+             
+
+
+.footer {
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(220,59,14,1);
+  color: white;
+  text-align: center;
+}
